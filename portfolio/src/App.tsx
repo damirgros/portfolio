@@ -3,7 +3,7 @@ import { useState } from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 function App() {
-  const [activeSection, setActiveSection] = useState("about");
+  const [activeSection, setActiveSection] = useState<string>("about");
 
   const renderContent = () => {
     switch (activeSection) {
@@ -30,7 +30,7 @@ function App() {
               </div>
               <div className="project-details">
                 <p>Social media website</p>
-                <p>React, Express, Typescript</p>
+                <p>React, Express, Typescript, PostgresQL</p>
                 <small>
                   *Page loading time is approx. 30 seconds (a limitation of the Renders free tier
                   account) - click on the image to open the website
@@ -45,7 +45,7 @@ function App() {
               </div>
               <div className="project-details">
                 <p>E-commerce website</p>
-                <p>Next.js, Express, Typescript</p>
+                <p>Next.js, Express, Typescript, MongoDB</p>
                 <small>
                   *Page loading time is approx. 30 seconds (a limitation of the Renders free tier
                   account) - click on the image to open the website
@@ -78,7 +78,7 @@ function App() {
           </div>
         );
       default:
-        return null;
+        return;
     }
   };
 
