@@ -68,24 +68,28 @@ function App() {
       case "contact":
         return (
           <div className="contact-me fade-in-on-load">
-            <a
-              href="https://www.linkedin.com/in/damir-groš-b18506299"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="icon"
-            >
-              <FaLinkedin />
-              Linkedin
-            </a>
-            <a
-              href="https://github.com/damirgros"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="icon"
-            >
-              <FaGithub />
-              Github
-            </a>
+            <div>
+              <a
+                href="https://www.linkedin.com/in/damir-groš-b18506299"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon"
+              >
+                <FaLinkedin />
+                Linkedin
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://github.com/damirgros"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon"
+              >
+                <FaGithub />
+                Github
+              </a>
+            </div>
           </div>
         );
       default:
