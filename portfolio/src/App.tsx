@@ -1,6 +1,9 @@
 import "./App.css";
 import { useState } from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import chatON from "./assets/chatON.svg";
+import shopON from "./assets/shopON.svg";
+import profile from "./assets/profile.png";
 
 function App() {
   const [activeSection, setActiveSection] = useState<string>("about");
@@ -25,7 +28,7 @@ function App() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src="/chatON.svg" alt="chatON" />
+                  <img src={chatON} alt="chatON" />
                 </a>
               </div>
               <div className="project-details">
@@ -40,7 +43,7 @@ function App() {
             <div className="project-card">
               <div className="project-image">
                 <a href="https://example.com" target="_blank" rel="noopener noreferrer">
-                  <img src="/shopON.svg" alt="shopON" />
+                  <img src={shopON} alt="shopON" />
                 </a>
               </div>
               <div className="project-details">
@@ -98,7 +101,7 @@ function App() {
         <div className="content">{renderContent()}</div>
       </div>
       <div className="profileImage">
-        <img src="/images/profile.png" alt="profile-image" />
+        <img src={profile} alt="profile-image" />
       </div>
     </div>
   );
