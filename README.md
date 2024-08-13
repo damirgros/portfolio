@@ -4,4 +4,4 @@ Welcome to the portfolio website of Damir Groš, a software developer specializi
 
 ## Live Demo
 
-You can view the live version of the website here: https://damirgros.github.io.
+You can view the live version of the website here: https://damirgros.github.io/portfolio.
