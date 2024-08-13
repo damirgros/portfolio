@@ -25,7 +25,7 @@ function App() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src="/images/chatON.svg" alt="chatON" />
+                  <img src="/chatON.svg" alt="chatON" />
                 </a>
               </div>
               <div className="project-details">
@@ -40,7 +40,7 @@ function App() {
             <div className="project-card">
               <div className="project-image">
                 <a href="https://example.com" target="_blank" rel="noopener noreferrer">
-                  <img src="/images/shopON.svg" alt="shopON" />
+                  <img src="/shopON.svg" alt="shopON" />
                 </a>
               </div>
               <div className="project-details">
