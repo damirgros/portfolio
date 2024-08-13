@@ -42,10 +42,7 @@ function App() {
               <div className="project-details">
                 <p>Social media website</p>
                 <p>React, Express, Typescript, PostgresQL</p>
-                <small>
-                  *Page loading time is approx. 30 seconds (a limitation of the Renders free tier
-                  account) - click on the image to open the website
-                </small>
+                <small>*Click on the image to open the website</small>
               </div>
             </div>
             <div className="project-card">
@@ -57,10 +54,7 @@ function App() {
               <div className="project-details">
                 <p>E-commerce website</p>
                 <p>Next.js, Express, Typescript, MongoDB</p>
-                <small>
-                  *Page loading time is approx. 30 seconds (a limitation of the Renders free tier
-                  account) - click on the image to open the website
-                </small>
+                <small>*Click on the image to open the website</small>
               </div>
             </div>
           </div>
