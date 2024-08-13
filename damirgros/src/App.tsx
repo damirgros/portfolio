@@ -11,8 +11,7 @@ function App() {
         return (
           <div className="about-me">
             <p>
-              My name is Damir Groš. I'm a software developer from Vinkovci, Croatia. I specialize
-              in React and Express.
+              I'm a software developer from Vinkovci, Croatia. I specialize in React and Express.
             </p>
           </div>
         );
