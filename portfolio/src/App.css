@@ -289,3 +289,24 @@ body {
     font-size: 1.1rem;
   }
 }
+
+@media (min-width: 979px) and (max-width: 1325px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .header p {
+    font-size: 0.9rem;
+  }
+
+  .header hr {
+    width: 80%;
+  }
+}
+.project-details p {
+  font-size: 1rem;
+}
+
+.project-details small {
+  font-size: 0.8rem;
+}
