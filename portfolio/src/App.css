@@ -122,6 +122,10 @@ body {
   line-height: 1.6;
 }
 
+.project {
+  margin-bottom: 30px;
+}
+
 .project-card {
   background: #151e3b;
   border-radius: 8px;
