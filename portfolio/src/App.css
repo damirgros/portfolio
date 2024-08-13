@@ -179,6 +179,9 @@ body {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
+    height: 100vh;
+    max-height: 300vh;
+    background-color: #e1e1e1;
   }
 
   .header h1 {
