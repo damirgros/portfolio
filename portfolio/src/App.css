@@ -33,21 +33,17 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-  width: 100%;
-  max-width: 1200px; /* Set a max-width to prevent overflow */
-  margin: 0 auto; /* Center the container */
+  width: 100vw;
   overflow-x: hidden;
-  padding: 20px; /* Add padding to prevent content from touching screen edges */
 }
 
 .page1 {
   display: flex;
   flex-direction: column;
   background-color: #e1e1e1;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 60px;
 }
 
 .header {
@@ -103,8 +99,8 @@ body {
 
 .content {
   border: 1px solid #151e3b;
-  width: 100%; /* Adjusted to fill the container */
-  max-width: 800px; /* Keep the content from becoming too wide */
+  width: 80%;
+  max-width: 800px;
   text-align: center;
   color: #333;
   padding: 20px;
@@ -130,13 +126,11 @@ body {
   background: #151e3b;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 20px auto; /* Center each project card */
+  margin: 20px 0;
   padding: 20px;
   display: flex;
   align-items: center;
   text-align: left;
-  width: 100%; /* Make sure the project card uses full available width */
-  max-width: 700px; /* Prevent it from being too wide */
 }
 
 .project-image img {
@@ -146,9 +140,8 @@ body {
   padding: 10px;
   border-radius: 8px;
   margin-right: 20px;
-  width: 100%;
-  max-width: 200px; /* Constrain image size */
-  height: auto; /* Adjust height automatically */
+  width: 200px;
+  height: 100px;
 }
 
 .project-details p {
@@ -181,7 +174,6 @@ body {
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
-    padding: 10px; /* Adjust padding for smaller screens */
   }
 
   .page1 {
