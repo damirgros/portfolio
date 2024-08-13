@@ -230,3 +230,62 @@ body {
     font-size: 1rem;
   }
 }
+
+/* Media Queries for Tablets and Small Laptops */
+@media (min-width: 768px) and (max-width: 979px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .page1 {
+    width: 100%;
+    height: 100vh;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .header h1 {
+    font-size: 4rem;
+  }
+
+  .header p {
+    font-size: 1.8rem;
+  }
+
+  .header hr {
+    width: 80%;
+  }
+
+  .profileImage {
+    display: none;
+  }
+
+  .navbar {
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .navbar button {
+    font-size: 1rem;
+  }
+
+  .content {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .project-card {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .project-image img {
+    width: 180px;
+    height: 90px;
+  }
+
+  .project-details p {
+    font-size: 1.1rem;
+  }
+}
