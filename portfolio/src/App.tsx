@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./App.css";
 import { useState } from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
@@ -8,11 +9,18 @@ import profile from "./assets/profile.png";
 function App() {
   const [activeSection, setActiveSection] = useState<string>("about");
 
+  useEffect(() => {
+    const elements = document.querySelectorAll(".fade-in-on-load");
+    elements.forEach((element) => {
+      element.classList.add("fade-in");
+    });
+  }, []);
+
   const renderContent = () => {
     switch (activeSection) {
       case "about":
         return (
-          <div className="about-me">
+          <div className="about-me fade-in-on-load">
             <p>
               I'm a software developer from Vinkovci, Croatia. I specialize in React and Express.
             </p>
@@ -20,7 +28,7 @@ function App() {
         );
       case "projects":
         return (
-          <div className="projects">
+          <div className="projects fade-in-on-load">
             <div className="project-card">
               <div className="project-image">
                 <a
@@ -59,7 +67,7 @@ function App() {
         );
       case "contact":
         return (
-          <div className="contact-me">
+          <div className="contact-me fade-in-on-load">
             <a
               href="https://www.linkedin.com/in/damir-groš-b18506299"
               target="_blank"
@@ -87,7 +95,7 @@ function App() {
 
   return (
     <div className="container">
-      <div className="page1">
+      <div className="page1 fade-in-on-load">
         <div className="header">
           <h1>Damir Groš</h1>
           <hr />
@@ -100,7 +108,7 @@ function App() {
         </nav>
         <div className="content">{renderContent()}</div>
       </div>
-      <div className="profileImage">
+      <div className="profileImage fade-in-on-load">
         <img src={profile} alt="profile-image" />
       </div>
     </div>
