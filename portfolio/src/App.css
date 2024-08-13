@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-direction: row;
   width: 100vw;
-  max-height: 100vh;
+
   overflow-x: hidden;
 }
 
@@ -160,7 +160,6 @@ body {
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
-    max-height: 300vh;
   }
 
   .page1 {
