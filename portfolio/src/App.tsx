@@ -22,7 +22,10 @@ function App() {
         return (
           <div className="about-me fade-in-on-load">
             <p>
-              I'm a software developer from Vinkovci, Croatia. I specialize in React and Express.
+              I'm a software developer from a small town called Vinkovci in Croatia. In 2020. I
+              became interested in web development and over the years the love for it slowly grew.
+              In Decemeber 2024. I decided to quit my job as occupational therapist and go all in on
+              web development. I specialize in React and Express.
             </p>
           </div>
         );
