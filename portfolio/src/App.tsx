@@ -107,7 +107,9 @@ function App() {
         <div className="content">{renderContent()}</div>
       </div>
       <div className="profileImage fade-in-on-load">
-        <img src={profile} alt="profile-image" />
+        <div>
+          <img src={profile} alt="profile-image" />
+        </div>
       </div>
     </div>
   );
