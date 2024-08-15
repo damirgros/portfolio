@@ -28,10 +28,11 @@ function App() {
           <div key={contentKey} className="content fade-in-on-load">
             <div className="about-me">
               <p>
-                I'm a software developer from a small town called Vinkovci in Croatia. In 2020, I
-                became interested in web development and over the years the love for it slowly grew.
-                In December 2023, I decided to quit my job as an occupational therapist and go all
-                in on web development. I specialize in React and Express.
+                I'm a web developer from a small town called Vinkovci in Croatia. In 2020, I became
+                interested in web development and over the years the love for it slowly grew. In
+                December 2023, I decided to quit my job as an occupational therapist and go all in
+                on web development. I specialize in <strong>React</strong> and{" "}
+                <strong>Express</strong>.
               </p>
             </div>
           </div>
@@ -121,7 +122,7 @@ function App() {
             <span>š</span>
           </h1>
           <hr />
-          <p>Software Developer</p>
+          <p>Web Developer</p>
         </div>
         <nav className="navbar">
           <button onClick={() => setActiveSection("about")}>About Me</button>
