@@ -53,19 +53,22 @@ function App() {
                 </div>
                 <div className="project-details">
                   <p>Social media website</p>
-                  <p>React, Express, Typescript, PostgresQL</p>
-                  <small>*Click on the image to open the website</small>
+                  <p>React, Express, Typescript, PostgreSQL</p>
+                  <small>
+                    *Click on the image to open the website ( it can take up to 30 seconds to load
+                    because of the limitation of the Renders free tier account)
+                  </small>
                 </div>
               </div>
               <div className="project-card">
                 <div className="project-image">
-                  <a href="https://example.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://shopon-ten.vercel.app" target="_blank" rel="noopener noreferrer">
                     <img src={shopON} alt="shopON" />
                   </a>
                 </div>
                 <div className="project-details">
                   <p>E-commerce website</p>
-                  <p>Next.js, Express, Typescript, MongoDB</p>
+                  <p>Next.js, Redux, Typescript, MongoDB</p>
                   <small>*Click on the image to open the website</small>
                 </div>
               </div>
