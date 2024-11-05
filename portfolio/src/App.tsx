@@ -31,8 +31,7 @@ function App() {
                 I'm a web developer from a small town called Vinkovci in Croatia. In 2020, I became
                 interested in web development and over the years the love for it slowly grew. In
                 December 2023, I decided to quit my job as an occupational therapist and go all in
-                on web development. I specialize in <strong>React</strong> and{" "}
-                <strong>Express</strong>.
+                on web development. I specialize in <strong>React</strong>.
               </p>
             </div>
           </div>
