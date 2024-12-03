@@ -1,6 +1,6 @@
 ## Portfolio
 
-Welcome to the portfolio website of Damir Groš, a software developer specializing in React and Express. This website showcases my projects, skills, and provides a way to contact me.
+Welcome to the portfolio website of Damir Groš, a website developer specializing in React. This website showcases my projects, skills, and provides a way to contact me.
 
 ## Live Demo
 
